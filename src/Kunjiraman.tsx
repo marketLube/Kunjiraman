@@ -257,8 +257,8 @@ animation: wiggle 1s ease-in-out infinite;
                   onClick={(e) => {
                     e.preventDefault();
                     document
-                      .getElementById("services")
-                      .scrollIntoView({ behavior: "smooth" });
+                      ?.getElementById("services")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="bg-white hover:bg-gray-100 text-blue-800 font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center !rounded-button whitespace-nowrap cursor-pointer"
                 >
@@ -928,8 +928,8 @@ animation: wiggle 1s ease-in-out infinite;
                     onClick={(e) => {
                       e.preventDefault();
                       document
-                        .getElementById("home")
-                        .scrollIntoView({ behavior: "smooth" });
+                        ?.getElementById("home")
+                        ?.scrollIntoView({ behavior: "smooth" });
                     }}
                     className="text-gray-400 hover:text-white transition duration-300 cursor-pointer"
                   >
