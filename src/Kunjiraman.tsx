@@ -698,7 +698,7 @@ animation: wiggle 1s ease-in-out infinite;
               </div>
             </div>
             <div className="w-full md:w-1/2 flex justify-center">
-              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+              {/* <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/20 backdrop-blur p-4 rounded-lg text-center transform transition-all duration-500 hover:scale-105 hover:bg-white/30 animate-fadeIn">
                     <i className="fas fa-box text-4xl text-white mb-2 animate-bounce"></i>
@@ -721,7 +721,7 @@ animation: wiggle 1s ease-in-out infinite;
                     <p className="text-blue-100 text-sm">Guaranteed</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
